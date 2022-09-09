@@ -1,0 +1,21 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"resto"},
+{"type":"table","name":"guest","database":"resto","data":
+[
+{"id_guest":"GST001","nama_guest":"Yulia Restu Usada","email_guest":"aHastuti@Pradana.sch.id","telp_guest":"0832 9657 899","tgl_reservasi":"2022-09-05","jml_guest":"3","jam_guest":"11:00 am -"},
+{"id_guest":"GST002","nama_guest":"Uchita Zulfa Andriani M.TI.","email_guest":"Ihsan.Nashiruddin@Namaga.go.id","telp_guest":"0713 3737 3599","tgl_reservasi":"2022-09-05","jml_guest":"5","jam_guest":"11:00 am -"},
+{"id_guest":"GST003","nama_guest":"Irfan Karya Mansur","email_guest":"tGunarto@Napitupulu.go.id","telp_guest":"(+62) 336 6670 5012","tgl_reservasi":"2022-09-06","jml_guest":"3","jam_guest":"08:00 am -"},
+{"id_guest":"GST004","nama_guest":"Silvia Yulianti","email_guest":"Wulandari.Qori@yahoo.com","telp_guest":"(+62) 725 8619 7865","tgl_reservasi":"2022-09-20","jml_guest":"5","jam_guest":"08:00 am -"},
+{"id_guest":"GST005","nama_guest":"mos","email_guest":"mos@rmpakbagong.gmail.com","telp_guest":"(+62) 336 6670 5012","tgl_reservasi":"2022-09-01","jml_guest":"5","jam_guest":"08:00 am -"},
+{"id_guest":"GST006","nama_guest":"Mitra Rangga Megantara","email_guest":"Rika47@yahoo.com","telp_guest":"(+62) 20 8551 637","tgl_reservasi":"2022-09-01","jml_guest":"5","jam_guest":"11:00 am -"},
+{"id_guest":"GST007","nama_guest":"Mitra Rangga Megantara","email_guest":"aHastuti@Pradana.sch.id","telp_guest":"123","tgl_reservasi":"2022-09-22","jml_guest":"2","jam_guest":"11:00 am -"},
+{"id_guest":"GST008","nama_guest":"epen","email_guest":"epenflow@gmail.com","telp_guest":"089","tgl_reservasi":"2022-09-22","jml_guest":"5","jam_guest":"08:00 am -"},
+{"id_guest":"GST009","nama_guest":"agus","email_guest":"wirahadi962@gmail.com","telp_guest":"1231213","tgl_reservasi":"2022-09-29","jml_guest":"5","jam_guest":"11:00 am -"},
+{"id_guest":"GST010","nama_guest":"takasi","email_guest":"epenflow@gmail.com","telp_guest":"(+62) 336 6670 5012","tgl_reservasi":"2022-09-29","jml_guest":"4","jam_guest":"11:00 am -"},
+{"id_guest":"GST011","nama_guest":"Mitra Rangga Megantara","email_guest":"epenflow@gmail.com","telp_guest":"999","tgl_reservasi":"2022-09-28","jml_guest":"5","jam_guest":"11:00 am -"},
+{"id_guest":"GST012","nama_guest":"Mitra Rangga Megantara","email_guest":"epenflow@gmail.com","telp_guest":"090","tgl_reservasi":"2022-09-22","jml_guest":"5","jam_guest":"08:00 am -"},
+{"id_guest":"GST013","nama_guest":"takasi","email_guest":"epenflow@gmail.com","telp_guest":"123","tgl_reservasi":"2022-09-29","jml_guest":"4","jam_guest":"08:00 am -"}
+]
+}
+]

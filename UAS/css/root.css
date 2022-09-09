@@ -1,0 +1,67 @@
+@font-face {
+  font-family: SFPRODISPLAYBLACKITALIC;
+  src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYBOLD;
+  src: url(../font/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYHEAVYITALIC;
+  src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYLIGHTITALIC;
+  src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYMEDIUM;
+  src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYREGULAR;
+  src: url(../font/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYSEMIBOLDITALIC;
+  src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYTHINITALIC;
+  src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
+}
+@font-face {
+  font-family: SFPRODISPLAYULTRALIGHTITALIC;
+  src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
+}
+@font-face {
+  font-family: BRUSHSCI;
+  src: url(../font/BRUSHSCI.TTF);
+}
+@font-face {
+  font-family: spidol;
+  src: url(../font/PermanentMarker.ttf);
+}
+:root {
+  --font-bold: SFPRODISPLAYBOLD;
+  --font-bold-italic: SFPRODISPLAYHEAVYITALIC;
+  --font-regular: SFPRODISPLAYREGULAR;
+  --font-medium: SFPRODISPLAYMEDIUM;
+  --font-semi-bold-italic: SFPRODISPLAYSEMIBOLDITALIC;
+  --font-thin-italic: SFPRODISPLAYTHINITALIC;
+  --font-ultra-italic: SFPRODISPLAYULTRALIGHTITALIC;
+  --font-brush: BRUSHSCI;
+  --font-spidol: spidol;
+
+  --color-biru: #0042bf;
+  --color-hijau-neon: #39ff14;
+  --color-putih-smoke: #f6f6f6;
+  --color-biru-dongker: #000080;
+  --color-putih-kusam: #f8f9fc;
+  --color-merah-dasar: #b23738;
+  --color-hijau-dasar: #1f4e43;
+  --color-orange-dasar: #faebd6;
+}
+::selection {
+  background-color: var(--color-hijau-neon);
+}

@@ -1,0 +1,128 @@
+@import url(../font/style.css);
+.main-container {
+  background-image: url(../img/fishesNilePlatesBoul_0262.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.main-background {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/jair1.svg);
+  background-position-x: -400px;
+  background-size: 20%;
+  position: absolute;
+  opacity: 50%;
+}
+.text-header {
+  font-family: var(--font-bold);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  color: #000;
+  border: 2px solid #000;
+  outline: 2px solid #000;
+  outline-offset: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 30px;
+}
+.text-header p {
+  width: 50%;
+  margin-top: -10px;
+  font-size: small;
+  font-family: var(--font-regular);
+  text-align: center;
+}
+.body-content {
+  border: 2px solid var(--color-merah-dasar);
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: var(--color-merah-dasar);
+  margin-bottom: 50px;
+  font-family: var(--font-bold);
+  text-transform: capitalize;
+  font-size: 30px;
+  z-index: 6;
+}
+.body-content:hover {
+  background-color: rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(1px);
+  outline-offset: 10px;
+  outline: 2px solid var(--color-merah-dasar);
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  font-family: var(--font-bold);
+  text-transform: capitalize;
+}
+label {
+  margin-bottom: 5px;
+  font-family: var(--font-brush);
+  font-size: x-large;
+  color: var(--color-merah-dasar);
+}
+input,
+select {
+  height: 50px;
+  width: 300px;
+  border: 2px solid var(--color-merah-dasar);
+  background-color: #eddfc6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 10px var(--color-merah-dasar);
+}
+button {
+  height: 50px;
+  width: 300px;
+  margin-top: 5px;
+  font-family: var(--font-bold);
+  background-color: transparent;
+  border: 2px solid var(--color-merah-dasar);
+  color: var(--color-merah-dasar);
+  border-radius: 10px;
+}
+button:hover {
+  background-color: var(--color-merah-dasar);
+  color: var(--color-putih-kusam);
+}
+.run-text {
+  width: 100%;
+  height: fit-content;
+  font-size: 100px;
+  font-family: var(--font-bold);
+  opacity: 90%;
+  text-transform: uppercase;
+  position: absolute;
+  object-fit: cover;
+}
